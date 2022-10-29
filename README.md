@@ -19,10 +19,10 @@ This project implements the works of the following paper: [Unsupervised Abstract
 cd
 git clone https://github.com/Risvy/Bangla-Text-and-Document-Summarizer.git
 ```
-Go to *Bangla-Text-and-Document-Summarizer* folder. Download *export.pkl* from this [link](https://drive.google.com/drive/folders/11ynzy-mX2zF4JsYruwDftMvXGCY2dTzi?usp=sharing) or [link](https://drive.google.com/file/d/13QLI02RBfxPDMPNEzTzqxrhGdBy-Xs0B/view?usp=share_link) and place it in the `Code/AbstractiveSummarizer/model/` directory.
+Go to *Bangla-Text-and-Document-Summarizer* folder. Download *export.pkl* from this [link](https://drive.google.com/drive/folders/11ynzy-mX2zF4JsYruwDftMvXGCY2dTzi?usp=sharing) or this [link](https://drive.google.com/file/d/13QLI02RBfxPDMPNEzTzqxrhGdBy-Xs0B/view?usp=share_link) and place it in the `Code/AbstractiveSummarizer/model/` directory.
 
 ### Step 2: Create Python Virtual Environment
-We need strictly specific version of softwares. So, the preferrable way is to create a virtual environment and run the project there. 
+We strictly need specific version of softwares. So, the preferrable way is to create a virtual environment and run the project there. 
 
 #### Python Virtual Environment Setup:
 1. Run the following commands: 
