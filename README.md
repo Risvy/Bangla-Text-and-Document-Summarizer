@@ -60,6 +60,13 @@ We used Ubuntu 20.04 and Google Chrome, which are recommended to run this projec
 3. Go to `Bangla-Text-and-Document-Summarizer` folder and open `Frontend` folder with VS Code.
 4. In VS Code, open **index.html** file, and right-click > **PHP Server: Serve Project**.
 5. This should open a localhost server in your browser.
+6. You may need to make some files (specially with .sh or .php extension) executable first with this command. If files are not executable they cannot be called from other files: Go to the file directory which you want to make executable and run:
+```
+chmod +x *filename*
+#Example: 
+
+chmod +x extractive_commands.sh
+```
 
 #### Step 4: Run and Summarize
 Insert the text you want to summarize. Click *SAVE* and the file will be downloaded in your system (default path: /Downloads/input.txt) Then click either *Abstractive* or *Extractive* summarization. The output will be automatically shown in a chrome new tab. Keep in mind that the time it will take depends on the capacity of the host machine. Thus the longer the text, the more time it will take to give results (How about start with a paragraph with 5-6 lines?). Extractive summarization gives faster result than abstractive Summarization.
