@@ -1,7 +1,7 @@
 # Bangla Text and Document Summarizer
 
 ## Reference
-This project implements the works of the following paper: [Unsupervised Abstractive Summarization of Bengali Text Documents](https://www.aclweb.org/anthology/2021.eacl-main.224/) accepted at [EACL 2021](https://2021.eacl.org/). If you use any of the resources or it's relevant to your work, please cite the paper of the original authors. 
+This project implements the works of the following paper: [Unsupervised Abstractive Summarization of Bengali Text Documents](https://www.aclweb.org/anthology/2021.eacl-main.224/) accepted at [EACL 2021](https://2021.eacl.org/). Datasets are collected from this paper. If you use any of the resources or it's relevant to your work, please cite the paper of the original authors. 
 ### Citation
 ```
 @inproceedings{chowdhury2021eacl,
