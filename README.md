@@ -71,6 +71,16 @@ chmod +x extractive_commands.sh
 #### Step 4: Run and Summarize
 Insert the text you want to summarize. Click *SAVE* and the file will be downloaded in your system (default path: /Downloads/input.txt) Then click either *Abstractive* or *Extractive* summarization. The output will be automatically shown in a chrome new tab. Keep in mind that the time it will take depends on the capacity of the host machine. Thus the longer the text, the more time it will take to give results (How about start with a paragraph with 5-6 lines?). Extractive summarization gives faster result than abstractive Summarization.
 
+## Screenshot
+<img src="/Screenshot/frontpage.png" alt="Front page" title="Home Page">
+<img src="/Screenshot/output.png" alt="Output" title="Summarized Output">
+
+
+## Behind the Scene
+When you insert and save a text, it downloads the file in your local machine (chrome default *downloads* directory). When you click **Click here for Abstractive** or **Click here for Extractive**, a php file (e.g: extractive.php) runs another shell script file (e.g: extractive_commands.sh) consist of the commands to run the project and view the result as well. In this way, the user only need to click one button and the rest will be handled in the backend.
+
+### What You'll Need to Change
+Some paths are hard-coded. Make them relative, or change them acoording to your preferrence in local host.  
 
 ## Troubleshoot
 1. You may need to install specific version of some softwares. Check `Code/AbstractiveSummarizer/Reference_Colab_Implementation.ipynb` for what is installed after which.
